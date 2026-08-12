@@ -1,0 +1,9 @@
+# Python / Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ML Output Checkpoints (Optional / Large files)
+models/*.keras
+models/*.h5

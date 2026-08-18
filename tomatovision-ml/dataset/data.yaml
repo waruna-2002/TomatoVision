@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['overipe', 'ripe', 'spoiled', 'unripe']
+
+roboflow:
+  workspace: isara-arjuna-perera
+  project: tomato-detection-ys054
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/isara-arjuna-perera/tomato-detection-ys054/2

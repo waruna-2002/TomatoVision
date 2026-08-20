@@ -1,4 +1,4 @@
-import 'tflite_stub.dart'
-    if (dart.library.ffi) 'tflite_mobile.dart';
+import 'tflite_stub.dart';
+export 'tflite_stub.dart';
 
 TfliteService getTfliteHelper() => getTfliteService();
